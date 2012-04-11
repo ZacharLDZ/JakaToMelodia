@@ -1,0 +1,76 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styl.css" type="text/css">
+    <style>
+     html
+     {
+        background-color: black;
+        color: white;
+     }
+     </style>
+
+    <script>
+
+      function handleUpdate(value)
+      {
+          try
+          {
+              var stopnie = Math.round(value);
+              var wskazanie = "";
+
+              if(stopnie <= 10 || stopnie >= 350)  wskazanie = "N";
+              if(stopnie > 280 && stopnie < 350)  wskazanie = "N-W";
+              if(stopnie >= 260 && stopnie <= 280)  wskazanie = "W";
+              if(stopnie > 190 && stopnie < 260)  wskazanie = "S-W";
+              if(stopnie >= 170 && stopnie <= 190)  wskazanie = "S";
+              if(stopnie > 100 && stopnie < 170)  wskazanie = "S-E";
+              if(stopnie >= 80 && stopnie <= 100)  wskazanie = "E";
+              if(stopnie > 10 && stopnie < 80)  wskazanie = "N-E";
+
+              document.getElementById("stopnie").innerHTML = stopnie+'&#176;' + ' ' + wskazanie;
+              paint(stopnie);
+          }
+          catch(e)
+          {
+              ComarchCompass.debug("[JS] handleUpdate error "+e);
+          }
+      }
+
+      window.onload = function()
+      {
+          ComarchCompass.update.connect(handleUpdate);
+      }
+
+      function paint(value)
+      {
+          var canvas = document.getElementById('kierunki');
+          var context = canvas.getContext('2d');
+          var image1 = new Image();
+          image1.src = 'kierunki.jpg';
+          context.translate(canvas.width / 2, canvas.height / 2);
+          context.rotate((value-paint.lastValue)* Math.PI / 180);
+          paint.lastValue = value;
+          context.translate(-canvas.width / 2, -canvas.height / 2);
+
+          image1.onload = function()
+          {
+              context.drawImage(image1,Math.abs((image1.width - canvas.width)/2),Math.abs((image1.width - canvas.width)/2));
+          }
+      }
+
+    </script>
+
+</head>
+<body>
+    <p>
+          <canvas id="kierunki" width="463" height="463">
+              <script>
+                  paint(0);
+               </script>
+           </canvas>
+           <div id="stopnie"> 0&#176 N
+           </div>
+   </p>
+</body>
+</html>
+
