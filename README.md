@@ -6,7 +6,7 @@ This is "Jaka To Melodia" team repository.
 Authors
 -------
 
-* Micha≈Ç Zachariasz
+* Micha≥ Zachariasz
 * Agnieszka Adyja
 * Kamil Adamczyk
 
