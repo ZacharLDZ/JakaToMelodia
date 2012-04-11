@@ -1,0 +1,25 @@
+body
+{
+    background-image: url(tlo.jpg);
+    background-repeat: repeat-y;
+    margin: 0px;
+}
+
+#stopnie
+{
+    font-size: 70px;
+    font-family: arial
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+#kierunki
+{
+    background-image: url(kierunki.jpg);
+    width: 463;
+    hight: 463;
+    background-repeat: repeat-y;
+    align: center;
+}
+
