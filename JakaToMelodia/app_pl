@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pl_PL">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="gamewindow.ui" line="14"/>
+        <location filename="highscore.ui" line="14"/>
+        <location filename="mainwindow.ui" line="14"/>
+        <location filename="options.ui" line="14"/>
+        <location filename="songchoose.ui" line="14"/>
+        <source>MainWindow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="27"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="64"/>
+        <location filename="mainwindow.ui" line="35"/>
+        <source>Jaka To Melodia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="87"/>
+        <source>Koniec</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="118"/>
+        <source>Punkty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="160"/>
+        <source>Piosenka</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="187"/>
+        <source>X/X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="gamewindow.ui" line="215"/>
+        <source>Powtórz fragment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="257"/>
+        <source>Czas</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="288"/>
+        <source>ODP1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="295"/>
+        <source>ODP2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="302"/>
+        <source>ODP3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="gamewindow.ui" line="334"/>
+        <source>Za tą piosenkę można zdobyć</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="348"/>
+        <source>X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="gamewindow.ui" line="364"/>
+        <source>punkty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="highscore.ui" line="32"/>
+        <location filename="options.ui" line="32"/>
+        <location filename="songchoose.ui" line="32"/>
+        <source>Wróć</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="highscore.ui" line="60"/>
+        <location filename="mainwindow.ui" line="82"/>
+        <source>Najlepsze wyniki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="68"/>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="75"/>
+        <location filename="options.ui" line="60"/>
+        <source>Opcje</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mainwindow.ui" line="105"/>
+        <source>Wyjście</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="options.ui" line="99"/>
+        <source>Poziom trudności</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="options.ui" line="107"/>
+        <source>Łatwy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="options.ui" line="112"/>
+        <source>Normalny</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="options.ui" line="117"/>
+        <source>Trudny</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="options.ui" line="122"/>
+        <source>Expert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="songchoose.ui" line="57"/>
+        <source>Wybierz źródło piosenek</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="songchoose.ui" line="90"/>
+        <source>Lista odtwarzania</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="songchoose.ui" line="95"/>
+        <source>Katalog</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+</TS>
